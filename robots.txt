@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uchcentrkaspi.dokufolio.com/sitemap.xml
