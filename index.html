@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Для учебных центров — языковых школ, подготовки к ЕНТ, кружков: оплаты учеников через Kaspi, сверка поступлений и список должников.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Оплаты учеников</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Оплаты учеников</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Оплаты учеников через Kaspi сверяются сами — и видно, кто из учеников должен</h1>
-    <p class="sub">Для частных учебных центров на 50–1000 учеников: каждому ученику — абонемент и счёт на оплату через Kaspi, поступления сами сопоставляются с учениками, а список долгов на сегодня всегда перед глазами.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для частных учебных центров</p>
+      <h1 class="rise" style="--i:1" data-len="long">Оплаты учеников через Kaspi сверяются сами&nbsp;<span class="soft">— и видно, кто из учеников должен</span></h1>
+      <p class="rise" style="--i:2">Для частных учебных центров на 50–1000 учеников: каждому ученику — абонемент и счёт на оплату через Kaspi, поступления сами сопоставляются с учениками, а список долгов на сегодня всегда перед глазами.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" fill="#0a1524" font-weight="600">Kaspi</text><line x1="130" y1="206" x2="1070" y2="206" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="420" height="420" fill="#dfe8f7" rx="18" /><rect x="650" y="250" width="420" height="420" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="164" y="320" font-size="34" fill="#0a1524" font-weight="600">учеников</text><text x="684" y="320" font-size="34" fill="#0a1524" font-weight="600">оплаты</text><rect x="164" y="370" width="280" height="24" fill="#ffffff" rx="8" /><rect x="164" y="450" width="220" height="24" fill="#ffffff" rx="8" /><rect x="164" y="530" width="300" height="24" fill="#ffffff" rx="8" /><rect x="684" y="370" width="240" height="24" fill="#dde2ea" rx="8" /><rect x="684" y="450" width="320" height="24" fill="#12397a" rx="8" /><rect x="684" y="530" width="180" height="24" fill="#dde2ea" rx="8" /><polygon points="575,440 630,465 575,490" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Частных учебных центров</dd></div>
+      <div><dt>Сверка</dt><dd>Оплаты учеников</dd></div>
+      <div><dt>Kaspi</dt><dd>Через Kaspi</dd></div>
+      <div><dt>Сервис</dt><dd>В подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Абонементы</b><span>Абонемент на месяц или на число занятий для каждого ученика или группы.</span><br><a class="btn" href="price.html" data-ev="feature_abonement">Мне это нужно</a></div>
-      <div class="card"><b>Оплата через Kaspi</b><span>Родитель или ученик платит по ссылке или счёту через Kaspi.</span><br><a class="btn" href="price.html" data-ev="feature_kaspi">Мне это нужно</a></div>
-      <div class="card"><b>Сверка поступлений</b><span>Каждая оплата сама находит своего ученика, без просмотра выписки.</span><br><a class="btn" href="price.html" data-ev="feature_sverka">Мне это нужно</a></div>
-      <div class="card"><b>Долги по ученикам</b><span>Кто должен, сколько и с какого числа — и напоминание родителю.</span><br><a class="btn" href="price.html" data-ev="feature_dolgi">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">Абонементы</text><text x="110" y="196" font-size="30" fill="#566174">занятий</text><rect x="110" y="250" width="420" height="26" fill="#dde2ea" rx="8" /><rect x="110" y="322" width="300" height="26" fill="#b9c3d2" rx="8" /><rect x="110" y="394" width="360" height="26" fill="#dde2ea" rx="8" /><circle cx="640" cy="460" r="36" fill="#dfe8f7" /><polyline points="616,460 634,482 668,430" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Абонементы</h3><p>Абонемент на месяц или на число занятий для каждого ученика или группы.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_abonement">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="230" y="48" width="340" height="504" fill="#ffffff" rx="40" stroke="#dde2ea" stroke-width="3" /><circle cx="400" cy="78" r="8" fill="#b9c3d2" /><rect x="258" y="112" width="284" height="300" fill="#dfe8f7" rx="12" /><text x="278" y="176" font-size="32" fill="#0a1524" font-weight="600">Kaspi</text><rect x="278" y="214" width="200" height="22" fill="#ffffff" rx="8" /><rect x="278" y="258" width="150" height="22" fill="#ffffff" rx="8" /><rect x="278" y="320" width="220" height="48" fill="#12397a" rx="12" /><circle cx="400" cy="500" r="22" fill="#dde2ea" /></svg></div>
+        <h3>Оплата через Kaspi</h3><p>Родитель или ученик платит по ссылке или счёту через Kaspi.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kaspi">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="36" fill="#0a1524" font-weight="600">Сверка</text><line x1="120" y1="470" x2="680" y2="470" stroke="#b9c3d2" stroke-width="4" fill="none" /><rect x="140" y="360" width="72" height="110" fill="#dfe8f7" rx="8" /><rect x="270" y="290" width="72" height="180" fill="#dde2ea" rx="8" /><rect x="400" y="380" width="72" height="90" fill="#b9c3d2" rx="8" /><rect x="530" y="230" width="72" height="240" fill="#12397a" rx="8" /></svg></div>
+        <h3>Сверка поступлений</h3><p>Каждая оплата сама находит своего ученика, без просмотра выписки.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sverka">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="136" font-size="36" fill="#0a1524" font-weight="600">Долги</text><rect x="120" y="200" width="540" height="78" fill="#dfe8f7" rx="28" /><circle cx="168" cy="239" r="14" fill="#ffffff" stroke="#12397a" stroke-width="4" /><text x="204" y="248" font-size="30" fill="#0a1524">учеников</text><rect x="120" y="320" width="540" height="78" fill="#dfe8f7" rx="28" /><circle cx="168" cy="359" r="14" fill="#12397a" stroke="#12397a" stroke-width="4" /><text x="204" y="368" font-size="30" fill="#0a1524">напоминание</text></svg></div>
+        <h3>Долги по ученикам</h3><p>Кто должен, сколько и с какого числа — и напоминание родителю.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dolgi">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Языковой центр на 240 учеников. Первого числа каждой семье уходит счёт на оплату абонемента через Kaspi. К пятому числу 198 оплат сопоставлены с учениками без участия администратора, а список показывает 42 должника; родителям уходит напоминание, и к десятому числу должников остаётся 9.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Языковой центр на 240 учеников. Первого числа каждой семье уходит счёт на оплату абонемента через Kaspi. К пятому числу 198 оплат сопоставлены с учениками без участия администратора, а список показывает 42 должника; родителям уходит напоминание, и к десятому числу должников остаётся 9.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Kaspi</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">учениками</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">должника</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">напоминание</text><rect x="170" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="280" y="460" width="64" height="64" fill="#12397a" rx="10" /><rect x="390" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="500" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="610" y="460" width="64" height="64" fill="#12397a" rx="10" /><rect x="720" y="460" width="64" height="64" fill="#dfe8f7" rx="10" /><text x="170" y="640" font-size="32" fill="#566174">языковой центр</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>В частном учебном центре — языковой школе, центре подготовки к ЕНТ, студии кружков — родители всё чаще платят за занятия через Kaspi. Это удобно для семей, но для центра оплата превращается в загадку: в выписке десятки переводов с разными именами и суммами, и каждый нужно сопоставить с учеником.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>В частном учебном центре — языковой школе, центре подготовки к ЕНТ, студии кружков — родители всё чаще платят за занятия через Kaspi. Это удобно для семей, но для центра оплата превращается в загадку: в выписке десятки переводов с разными именами и суммами, и каждый нужно сопоставить с учеником.</p>
     <p>Администратор тратит на это часы в начале каждого месяца: просматривает поступления, сверяет с таблицей учеников, выясняет, за кого заплатил «Айгерим К.» и почему сумма меньше абонемента. Ошибки неизбежны, и центр то напоминает об оплате тем, кто уже заплатил, то не замечает реальных должников.</p>
     <p>Сервис начинается с абонементов. Для каждого ученика или группы задаётся абонемент: на месяц, на число занятий, со скидкой для братьев и сестёр. Сумма к оплате считается сама, с учётом пропусков по уважительной причине, если центр так работает.</p>
     <p>Каждой семье уходит счёт или ссылка на оплату через Kaspi с именем ученика и периодом. Родитель оплачивает в приложении, как обычно, а оплата сама сопоставляется с нужным учеником — по счёту, а не по имени плательщика.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Подключиться можно за один день: загрузить список учеников и групп из таблицы, задать абонементы и цены и связать приём оплат через Kaspi. Работает сервис в браузере и на телефоне.</p>
     <p>Сервис рассчитан на частные учебные центры, языковые школы, центры подготовки к ЕНТ и студии кружков в Казахстане. Сейчас он в подготовке: сначала мы проверяем, нужен ли он центрам, и только потом его запускаем.</p>
     <p>Сервис помогает принимать и сверять оплаты, но не является банком; договоры с родителями и учёт для налоговой остаются за центром.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Как родители платят?</h3>
-    <p>Через Kaspi по счёту или ссылке с именем ученика и периодом.</p>
-    <h3>Как оплата находит ученика?</h3>
-    <p>По счёту, а не по имени плательщика; оплаты без счёта сервис предлагает сопоставить по сумме.</p>
-    <h3>Видно ли должников?</h3>
-    <p>Да, список долгов на сегодня по каждому ученику, с напоминанием родителям.</p>
-    <h3>Сервис — это банк?</h3>
-    <p>Нет. Он помогает выставлять счета и сверять оплаты; договоры и учёт остаются за центром.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он центрам.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Как родители платят?</h3><p>Через Kaspi по счёту или ссылке с именем ученика и периодом.</p></div>
+      <div class="split flip"><h3>Как оплата находит ученика?</h3><p>По счёту, а не по имени плательщика; оплаты без счёта сервис предлагает сопоставить по сумме.</p></div>
+      <div class="split flip"><h3>Видно ли должников?</h3><p>Да, список долгов на сегодня по каждому ученику, с напоминанием родителям.</p></div>
+      <div class="split flip"><h3>Сервис — это банк?</h3><p>Нет. Он помогает выставлять счета и сверять оплаты; договоры и учёт остаются за центром.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он центрам.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Добавьте свой центр</h2>
-    <p><label>Сколько у вас учеников<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>До 50</option><option>50–200</option><option>200–500</option><option>Больше 500</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Добавьте свой центр</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько у вас учеников<select data-ev-focus="form_start"><option value="">— выберите —</option><option>До 50</option><option>50–200</option><option>200–500</option><option>Больше 500</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Оплаты учеников</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Политика конфиденциальности</a></p>
-  <p class="muted">Счета и сверка оплат для вашего центра. Не банк; договоры с родителями и учёт остаются за центром.</p>
+  <p>Счета и сверка оплат для вашего центра. Не банк; договоры с родителями и учёт остаются за центром.</p>
 </div></footer>
 
 </body>
